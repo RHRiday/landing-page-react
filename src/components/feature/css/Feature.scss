@@ -1,0 +1,122 @@
+@import '../../mixin.scss';
+.utility__margin-small {
+    margin: 1rem;
+}
+.utility__margin--bottom-medium {
+    margin-bottom: 2rem !important;
+    @include respond(tab-port) {
+        margin-bottom: 1.5rem !important;
+    }
+    @include respond(mobile) {
+        margin-bottom: 1rem !important;
+    }
+}
+.utility__margin--bottom-small {
+    margin-bottom: 2rem !important;
+}
+.feature {
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    background-image: linear-gradient(rgba(17, 26, 15, 0.849),rgba(22, 29, 16, 0.815)),url(https://agency.dexignlab.com/react/demo/static/media/bg1.5be7af33.jpg),;
+    background-attachment: fixed;
+    background-size: cover;
+    padding-top: 3%;
+    color: #fff;
+    font-size: 1rem;
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+    font-weight: 400;
+    background-color: #ffffff;
+    &__part {
+        &--heading {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            flex-direction: column;
+            width: 60%;
+            margin: 0 auto;
+        }
+        &--navigationbar {
+            font-size: 1rem;
+            margin: 0 auto;
+            color: #b7b2b2;
+            display: flex;
+            width: 100%;
+
+            & div {
+                margin: 1rem 1rem 0;
+                padding-bottom: 2rem;
+                cursor: pointer;
+                flex: 1;
+                text-align: center;
+            }
+            &-selected {
+                color: white;
+                border-bottom: 1px solid #6cc000;
+            }
+        }
+        &--feature {
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            // border-bottom: 1px solid hsla(0,0%,100%,.1);
+            border-top: 1px solid hsla(0,0%,100%,.1);
+            padding: 3%;
+            @include respond(tab-port) {
+                flex-direction: column;
+                padding-left: 4%;
+            }
+            @include respond(mobile) {
+                padding: 1rem;
+            }
+            // padding-right: 3%;
+            display: flex;
+            justify-content: center;
+            margin-bottom: 1rem;
+        }
+        &--show {
+            font-size: 1.5rem;
+            color: #fff;
+            display: flex;
+            flex-wrap: wrap;
+            @include respond(mobile) {
+                width: 80%;
+                margin: 0 auto;
+            }
+
+            font-weight: 400;
+            &-icon {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+            &-each {
+                padding: 3%;
+                @include respond(mobile) {
+                    padding: 3%;
+                }
+                border: 1px solid hsla(0,0%,100%,.1);
+                flex: 1;
+                display: flex;
+                align-items: center;
+                flex-direction: column;
+                justify-content: center;
+            }
+            &-text {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+        }
+    }
+    &__heading {
+        text-align: center;
+        font-weight: 700;
+    }
+    &--paragraph {
+        color: #d1d2d2;
+        font-size: 1rem;
+        text-align: center;
+        font-weight: 400;
+    }
+}
