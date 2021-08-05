@@ -24,6 +24,12 @@
 .icon.ins:hover {
   color: #aa2fb6;
 }
+.icon.t:hover {
+  color: #1DA1F2
+}
+.icon.in:hover {
+  color: #0077b5
+}
 @media only screen and (max-width: 800px) {
   .footer-area {
     background-position: bottom;

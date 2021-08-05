@@ -2,7 +2,7 @@ import React from 'react';
 import './Footer.css';
 import FooterCol from './FooterCol';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faFacebookF, faInstagram, faGooglePlusG } from '@fortawesome/free-brands-svg-icons';
+import { faFacebookF, faInstagram, faTwitter, faLinkedinIn } from '@fortawesome/free-brands-svg-icons';
 
 const Footer = () => {
     const products = [
@@ -38,6 +38,9 @@ const Footer = () => {
         <footer className="footer-area clear-both">
             <div className="container">
                 <div className="row py-5 justify-content-center">
+                    <div className="col-sm-2">
+                        <img src="https://codesign.com.bd/conversations/content/images/2020/03/Sprint-logo-design-Codesign-agency.png" width="70px" />
+                    </div> 
                     <FooterCol key={1} menuTitle="Products" menuItems={products}/>
                     <FooterCol key={2} menuTitle="Services" menuItems={services}/>
                     <FooterCol key={3} menuTitle="About Us" menuItems={aboutUs}/>
@@ -47,7 +50,8 @@ const Footer = () => {
                                 <h4>+22560255</h4>
                             </div>
                             <li className="list-inline-item"><a href="/"><FontAwesomeIcon className="icon fb" icon={faFacebookF} /></a></li>
-                            <li className="list-inline-item"><a href="/"><FontAwesomeIcon className="icon g" icon={faGooglePlusG} /></a></li>
+                            <li className="list-inline-item"><a href="/"><FontAwesomeIcon className="icon t" icon={faTwitter} /></a></li>
+                            <li className="list-inline-item"><a href="/"><FontAwesomeIcon className="icon in" icon={faLinkedinIn} /></a></li>
                             <li className="list-inline-item"><a href="/"><FontAwesomeIcon className="icon ins" icon={faInstagram} /></a></li>
                         </ul>
                     </FooterCol>

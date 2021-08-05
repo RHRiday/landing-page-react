@@ -1,0 +1,8 @@
+.btn-dark {
+    transition: 0.25s;
+}
+.btn-dark:hover {
+    background-color: #111111;
+    font-size: 1.1rem;
+    padding: 0.305rem;
+}

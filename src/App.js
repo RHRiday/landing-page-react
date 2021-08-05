@@ -10,11 +10,13 @@ import Testimonials from './components/testimonial/Testimonials';
 import Feature from './components/feature/Feature';
 import Blogs from './components/blog/Blogs';
 import Footer from './components/footer/Footer';
+import Nav from './components/Head/Nav';
 
 function App() {
     return (
         <>
             <Top/>
+            <Nav/>
             <Platforms/>
             <AboutUs/>
             <Feature/>
