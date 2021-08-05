@@ -8,6 +8,8 @@ import Platforms from './components/platform/Platforms';
 import AboutUs from './components/AboutUs';
 import Testimonials from './components/testimonial/Testimonials';
 import Feature from './components/feature/Feature';
+import Blogs from './components/blog/Blogs';
+import Footer from './components/footer/Footer';
 
 function App() {
     return (
@@ -16,7 +18,9 @@ function App() {
             <Platforms/>
             <AboutUs/>
             <Feature/>
+            <Blogs/>
             <Testimonials/>
+            <Footer/>
         </>
     );
 }

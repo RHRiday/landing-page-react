@@ -1,0 +1,31 @@
+.footer-area{
+  background-image: url(https://html.creativegigs.net/deski/deski/images/shape/44.svg);
+  background-position: left;
+  background-repeat: no-repeat;
+  font-size: 0.9rem;
+}
+
+.footer-area li{
+  padding-bottom: 10px;
+}
+
+.social-media .icon{
+  height: 40px;
+  width: 40px;
+  color: #646464;
+  padding: 10px;
+}
+.icon.fb:hover {
+  color: #2e89ff;
+}
+.icon.g:hover {
+  color: #e34133;
+}
+.icon.ins:hover {
+  color: #aa2fb6;
+}
+@media only screen and (max-width: 800px) {
+  .footer-area {
+    background-position: bottom;
+  }
+}
