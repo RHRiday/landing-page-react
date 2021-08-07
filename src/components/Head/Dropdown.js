@@ -4,25 +4,23 @@ const Dropdown = ({title}) => {
     return (
         <div>
             <li class="nav-item dropdown mx-3">
-                <a
-                    class="nav-link dropdown-toggle"
-                    href="#"
-                    id="navbarDropdown"
-                    role="button"
-                    data-bs-toggle="dropdown"
-                    aria-expanded="false">
-                    {title}
+                <a class="nav-link fw-bold" href="#" data-bs-toggle="dropdown">
+                    Services
                 </a>
-                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <ul class="dropdown-menu">
                     <li>
-                        <a class="dropdown-item" href="#">Action</a>
+                        <a class="dropdown-item" href="#">
+                            Submenu item 1</a>
                     </li>
                     <li>
-                        <a class="dropdown-item" href="#">Another action</a>
+                        <a class="dropdown-item" href="#">
+                            Submenu item 2
+                        </a>
                     </li>
-                    <li><hr class="dropdown-divider"/></li>
                     <li>
-                        <a class="dropdown-item" href="#">Something else here</a>
+                        <a class="dropdown-item" href="#">
+                            Submenu item 3
+                        </a>
                     </li>
                 </ul>
             </li>

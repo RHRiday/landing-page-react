@@ -80,7 +80,6 @@
             display: flex;
             flex-wrap: wrap;
             @include respond(mobile) {
-                width: 80%;
                 margin: 0 auto;
             }
 
@@ -106,6 +105,7 @@
                 display: flex;
                 justify-content: center;
                 align-items: center;
+                text-align: center;
             }
         }
     }
@@ -118,5 +118,11 @@
         font-size: 1rem;
         text-align: center;
         font-weight: 400;
+    }
+}
+
+@media only screen and (max-width: 700px) {
+    .feature__part--navigationbar {
+        flex-direction: column;
     }
 }

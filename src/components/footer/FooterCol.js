@@ -2,7 +2,7 @@ import React from 'react';
 
 const FooterCol = (props) => {
     return (
-        <div className="col-sm-6 col-md-2">
+        <div className="col-4 mx-2 col-lg-2">
             <h6 className="h4">{props.menuTitle ? props.menuTitle : " "}</h6>
             <ul className="list-unstyled mt-4 text-muted">
                  {

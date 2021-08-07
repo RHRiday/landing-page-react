@@ -11,17 +11,21 @@ import Feature from './components/feature/Feature';
 import Blogs from './components/blog/Blogs';
 import Footer from './components/footer/Footer';
 import Nav from './components/Head/Nav';
+import Header from './components/Head/header/Header';
+import FormSection from './components/form/FormSection'
 
 function App() {
     return (
         <>
             <Top/>
             <Nav/>
+            <Header/>
             <Platforms/>
             <AboutUs/>
             <Feature/>
             <Blogs/>
             <Testimonials/>
+            <FormSection/>
             <Footer/>
         </>
     );

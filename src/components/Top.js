@@ -3,7 +3,7 @@ import React, {Component} from 'react';
 class Top extends Component {
     render() {
         return (
-            <div className="container">
+            <div className="container d-none d-lg-block">
                 <header className="my-1 d-flex justify-content-between">
                     <ul className="nav">
                         <li className="me-2">

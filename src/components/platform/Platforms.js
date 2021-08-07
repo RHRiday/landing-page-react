@@ -8,7 +8,7 @@ class Platforms extends Component {
                 <h5 className="text-center font-title d30000">Choose your platform</h5>
                 <h3 className="text-center font-title">Available on all platforms</h3>
                 <div className="row justify-content-center">
-                    <div className="row d-flex my-5 justify-content-around">
+                    <div className="row d-flex my-lg-5 justify-content-around">
                         <Platform
                             name="Android app"
                             option={['Strategy and planning', 'Monthly reports', 'Trend research']}/>

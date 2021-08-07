@@ -1,0 +1,80 @@
+@import '../../mixin.scss';
+.utility__margin--bottom{
+    margin-bottom: 1rem;
+}
+.utility__margin--bottom-small{
+    margin-bottom: 2rem !important;
+    @include respond(mobile){
+        margin-bottom: 1rem !important; 
+    }
+}
+.utility__margin__top-small{
+    margin-top: 2rem;
+    @include respond(mobile){
+        margin-top: 1rem;
+    }
+}
+.utility__margin--top-medium{
+    margin-top: 3rem;
+    @include respond(tab-port){
+        margin-top:2rem
+    }
+    @include respond(mobile){
+        margin-top: 1rem;
+    }
+}
+.utility__marigin--righ-small{
+    margin-right: 1rem;
+}
+.utility__flex{
+    display: flex;
+    align-items: center;
+}
+.utility__flex-direction{
+    @include respond(tab-port){
+        flex-direction: column;
+        align-items: baseline;
+    }
+}
+.FormSection{
+    padding-bottom: 7rem;
+    background-image:linear-gradient(rgba(17, 26, 15, 0.849),rgba(22, 29, 16, 0.815)),url(https://agency.dexignlab.com/react/demo/static/media/bg1.5be7af33.jpg),;
+    background-size: cover;
+    background-attachment: fixed;
+    display: flex;
+    justify-content: center;
+    @include respond(mobile){
+        flex-direction: column;
+        padding: 2rem;
+    }
+    &__call{
+        display: flex;
+        color: #fff;
+        flex-direction: column;
+        align-items: flex-start;
+        flex: 0 0 40%;
+        &--heading,&--get{
+            font-weight: 700;
+        }
+        &--paragraph{
+            opacity: .8;
+            font-size: 1.2rem;
+        }
+        &--uses{
+            font-size: 2rem;
+            padding-right: 3rem;
+            opacity: .6;
+        }
+      
+    }
+}
+
+.benefit {
+    margin: .5rem 0 !important;
+}
+
+@media only screen and (max-width: 900px) {
+    .Form__Section__name,.Form__Section__mobile {
+        width: 88% !important;
+    }
+}

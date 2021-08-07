@@ -34,4 +34,9 @@
   .footer-area {
     background-position: bottom;
   }
+  .social-media .icon{
+    height: 30px;
+    width: 30px;
+    padding: 5px;
+  }
 }
