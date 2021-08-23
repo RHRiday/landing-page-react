@@ -7,7 +7,7 @@ class Nav extends Component {
         return (
             <nav class="navbar navbar-expand-lg navbar-light bg-white shadow-sm sticky-top">
                 <div class="container container-fluid">
-                    <a class="navbar-brand" href="#">logo</a>
+                    <a class="navbar-brand" href="#">RHRiday</a>
                     <button
                         class="navbar-toggler"
                         type="button"

@@ -20,7 +20,7 @@ class Testimonials extends Component {
                                 standard dummy text ever since the when an printer took a galley of type and
                                 scrambled it to make"
                         img={tm1}
-                        name="Mr. Zorg"
+                        name="Ms. Tuna"
                         desg="Company head"/>
                     <Testimonial
                         comment="Lorem Ipsum is simply dummy text
@@ -28,7 +28,7 @@ class Testimonials extends Component {
                                 standard dummy text ever since the when an printer took a galley of type and
                                 scrambled it to make"
                         img={tm1}
-                        name="Mr. Zorg"
+                        name="Mr. Zahid"
                         desg="Company head"/>
                     <Testimonial
                         comment="Lorem Ipsum is simply dummy text
@@ -36,7 +36,7 @@ class Testimonials extends Component {
                                 standard dummy text ever since the when an printer took a galley of type and
                                 scrambled it to make"
                         img={tm1}
-                        name="Mr. Zorg"
+                        name="Mrs. Tina"
                         desg="Company head"/>
                 </div>
             </div>
